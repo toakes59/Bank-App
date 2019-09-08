@@ -7,6 +7,7 @@ using namespace std;
 
 int main() {
 
+	//Testing BaseUser class
 	BaseUser newUser;
 
 	newUser.setId(10);
