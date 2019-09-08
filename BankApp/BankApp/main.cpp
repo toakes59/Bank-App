@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <string>
 
 using namespace std;
@@ -12,6 +13,6 @@ int main() {
 
 	newUser.setId(10);
 	cout << newUser.getId() << endl;
-
+	
 	return 0;
 }
