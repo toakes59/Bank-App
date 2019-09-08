@@ -124,9 +124,11 @@
   <ItemGroup>
     <ClCompile Include="BaseUser.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Client.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseUser.h" />
+    <ClInclude Include="Client.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

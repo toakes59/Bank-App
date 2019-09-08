@@ -22,6 +22,9 @@
     <Filter Include="Bank Account">
       <UniqueIdentifier>{27fe1105-3ba8-447b-81fa-d29889036c8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{b20975c7-6445-423a-aa74-382529ec8056}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -30,10 +33,16 @@
     <ClCompile Include="BaseUser.cpp">
       <Filter>User</Filter>
     </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseUser.h">
       <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
