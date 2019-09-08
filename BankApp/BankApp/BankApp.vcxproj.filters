@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{54939fd8-96d7-476b-a042-268450886af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Password">
+      <UniqueIdentifier>{738fd4b9-33bd-4768-ab01-9648eab6c70c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bank Account">
+      <UniqueIdentifier>{27fe1105-3ba8-447b-81fa-d29889036c8f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BaseUser.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseUser.h">
+      <Filter>User</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
