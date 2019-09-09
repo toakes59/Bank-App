@@ -22,4 +22,6 @@ public:
 	void setCMoney(double cMoney);
 
 	double getCMoney();
+
+	bool withdraw(double money, int account);
 };

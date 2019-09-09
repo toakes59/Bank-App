@@ -1,4 +1,5 @@
 #include "Client.h"
+#include <iostream>
 
 void Client::setSMoney() 
 {
@@ -28,4 +29,38 @@ void Client::setCMoney(double cMoney)
 double Client::getCMoney()
 {
 	return cMoney;
+}
+
+/* Accounts will be accounted for numerically, in this case, account 1 will refer to a savings account and account 2 will refer to a checking account.
+Upon further implentation, it might be better to use a switch statement for more than 2 accounts
+*/
+bool Client::withdraw(double money, int account)
+{	
+	string warning = "You do not have enough money in your account";
+	
+	//Check to see that a valid account number was chosen 
+	if (account < 0 || account > 2)
+	{
+		cout << "Account number " << account << " doesn't exist.";
+		return false; 
+	}
+	if (account == 1)
+	{
+		if(this->sMoney < money) //If there's not enough money in the account, relay action can't be done
+		{
+			cout << warning;
+			return false; //Returns bool value to check if a withdraw action was made
+		}
+		this->sMoney -= money;
+	}
+	else
+	{
+		if (this->cMoney < money) 
+		{
+			cout << warning;
+			return false;
+		}
+		this->cMoney -= money;
+	}
+	return true; 
 }
