@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
+#include "BaseUser.h"
 
 using namespace std;
 
-#include "BaseUser.h"
 
 int main() {
 
