@@ -119,13 +119,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BaseUser.cpp" />
+    <ClCompile Include="BaseUser\BaseUser.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Teller.cpp" />
+    <ClCompile Include="Teller\Teller.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseUser.h" />
-    <ClInclude Include="Teller.h" />
+    <ClInclude Include="BaseUser\BaseUser.h" />
+    <ClInclude Include="Teller\Teller.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

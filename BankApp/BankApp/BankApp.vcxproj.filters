@@ -30,19 +30,19 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BaseUser.cpp">
-      <Filter>User</Filter>
+    <ClCompile Include="Teller\Teller.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Teller.cpp">
-      <Filter>Teller</Filter>
+    <ClCompile Include="BaseUser\BaseUser.cpp">
+      <Filter>User</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseUser.h">
-      <Filter>User</Filter>
+    <ClInclude Include="Teller\Teller.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Teller.h">
-      <Filter>Teller</Filter>
+    <ClInclude Include="BaseUser\BaseUser.h">
+      <Filter>User</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
