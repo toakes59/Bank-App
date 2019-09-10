@@ -39,11 +39,7 @@ bool Client::withdraw(double money, int account)
 	string warning = "You do not have enough money in your account";
 	
 	//Check to see that a valid account number was chosen 
-	if (account < 0 || account > 2)
-	{
-		cout << "Account number " << account << " doesn't exist.";
-		return false; 
-	}
+	
 	if (account == 1)
 	{
 		if(this->sMoney < money) //If there's not enough money in the account, relay action can't be done
@@ -53,7 +49,7 @@ bool Client::withdraw(double money, int account)
 		}
 		this->sMoney -= money;
 	}
-	else
+	else if (account == 2)
 	{
 		if (this->cMoney < money) 
 		{
@@ -61,6 +57,11 @@ bool Client::withdraw(double money, int account)
 			return false;
 		}
 		this->cMoney -= money;
+	}
+	
+	else {
+		cout << "Account number " << account << " doesn't exist.";
+		return false;
 	}
 	return true; 
 }
