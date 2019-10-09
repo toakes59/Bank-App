@@ -7,7 +7,7 @@ class Teller : public BaseUser
 {
 private:
 	double timeWorked;
-
+	double hours;
 
 public:
 
@@ -21,6 +21,8 @@ public:
 
 	void createClientAccount(int id, std::string username, std::string password);
 
+	void setHoursWorked(double hours);
 
+	double getHoursWorkde();
 
 }; 
