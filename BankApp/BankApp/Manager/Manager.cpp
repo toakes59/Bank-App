@@ -1,11 +1,16 @@
 #include "Manager.h"
 
-
+/*
+* Creates Teller
+*/
 void Manager::createTeller() {
 	//TODO create teller and add it to tellers list
 
 }
 
+/*
+* Gets Teller
+*/
 Teller Manager::getTeller(int id) {
 	
 	Teller teller;
@@ -15,6 +20,9 @@ Teller Manager::getTeller(int id) {
 	return teller;
 }
 
+/*
+* Sets Teller
+*/
 void Manager::setTeller(Teller teller) {
 	this->teller = teller;
 }
