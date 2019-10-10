@@ -36,6 +36,9 @@
     <ClCompile Include="BaseUser\BaseUser.cpp">
       <Filter>User</Filter>
     </ClCompile>
+    <ClCompile Include="Manager\Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Teller\Teller.h">
@@ -43,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="BaseUser\BaseUser.h">
       <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Manager.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
