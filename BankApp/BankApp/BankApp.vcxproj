@@ -121,10 +121,12 @@
   <ItemGroup>
     <ClCompile Include="BaseUser\BaseUser.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Manager\Manager.cpp" />
     <ClCompile Include="Teller\Teller.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseUser\BaseUser.h" />
+    <ClInclude Include="Manager\Manager.h" />
     <ClInclude Include="Teller\Teller.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
