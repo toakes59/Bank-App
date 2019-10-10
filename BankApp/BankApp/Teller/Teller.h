@@ -17,12 +17,24 @@ public:
 	*/
 	BaseUser getClient(int id);
 
+	/*
+	* Gets ClientsList
+	*/
 	std::vector<BaseUser> getClientsList();
 
+	/*
+	* Creates a Client Account
+	*/
 	void createClientAccount(int id, std::string username, std::string password);
 
+	/*
+	* Sets hours worked
+	*/
 	void setHoursWorked(double hours);
 
+	/*
+	* Gets hours worked
+	*/
 	double getHoursWorkde();
 
 }; 
