@@ -26,3 +26,13 @@ Teller Manager::getTeller(int id) {
 void Manager::setTeller(Teller teller) {
 	this->teller = teller;
 }
+
+/*
+* Gets Tellers Acoount list
+*/
+std::vector<Teller> getTellerList() {
+
+	std::vector<Teller> tellers;
+
+		return tellers;
+}

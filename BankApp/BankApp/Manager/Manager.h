@@ -27,4 +27,9 @@ public:
 	*/
 	void setTeller(Teller teller);
 
+	/*
+	* Gets Tellers Acoount list
+	*/
+	std::vector<Teller> getTellerList() {}
+
 };
