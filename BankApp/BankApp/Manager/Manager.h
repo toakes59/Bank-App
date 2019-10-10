@@ -12,10 +12,19 @@ private:
 
 public:
 	
+	/*
+	* Creates Teller
+	*/
 	void createTeller();
 
+	/*
+	* Gets Teller
+	*/
 	Teller getTeller(int id);
 
+	/*
+	* Sets Teller
+	*/
 	void setTeller(Teller teller);
 
 };
