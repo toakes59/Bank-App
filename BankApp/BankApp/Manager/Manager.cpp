@@ -34,5 +34,7 @@ std::vector<Teller> getTellerList() {
 
 	std::vector<Teller> tellers;
 
+	//TODO retrieve vector of Teller accounts
+
 		return tellers;
 }
