@@ -6,13 +6,19 @@
 */
 BaseUser Teller::getClient(int id) {
 	
+	BaseUser teller;
+
+	return teller;
 }
 
 /*
 * Gets ClientsList
 */
 std::vector<BaseUser> Teller::getClientsList() {
+	std::vector<BaseUser> tellers;
+	//TODO add function add new teller to end of tellers vector (change to linked list or hash map where key is ID later)
 
+	return tellers;
 }
 
 /*
