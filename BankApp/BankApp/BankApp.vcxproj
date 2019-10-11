@@ -122,20 +122,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BaseUser.cpp" />
+    <ClCompile Include="BaseUser\BaseUser.cpp" />
     <ClCompile Include="main.cpp" />
 
     <ClCompile Include="Client.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseUser.h" />
     <ClInclude Include="Client.h" />
-
-    <ClCompile Include="Teller.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaseUser.h" />
-    <ClInclude Include="Teller.h" />
+
+    <ClCompile Include="Manager\Manager.cpp" />
+    <ClCompile Include="Teller\Teller.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseUser\BaseUser.h" />
+    <ClInclude Include="Manager\Manager.h" />
+    <ClInclude Include="Teller\Teller.h" />
 
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
