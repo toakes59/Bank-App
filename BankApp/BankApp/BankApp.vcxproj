@@ -124,14 +124,8 @@
   <ItemGroup>
     <ClCompile Include="BaseUser\BaseUser.cpp" />
     <ClCompile Include="main.cpp" />
-
-    <ClCompile Include="Client.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Client.h" />
-  </ItemGroup>
-  <ItemGroup>
-
     <ClCompile Include="Manager\Manager.cpp" />
     <ClCompile Include="Teller\Teller.cpp" />
   </ItemGroup>
@@ -139,7 +133,6 @@
     <ClInclude Include="BaseUser\BaseUser.h" />
     <ClInclude Include="Manager\Manager.h" />
     <ClInclude Include="Teller\Teller.h" />
-
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

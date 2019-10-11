@@ -65,3 +65,24 @@ bool Client::withdraw(double money, int account)
 	}
 	return true; 
 }
+
+/*In this application, we assume that the client does have the amount
+money to deposit, further applications to the class can be made to 
+include how much money the client has in the wallet
+*/
+bool Client::deposit(double money, int account)
+{
+	if (account == 1)
+	{
+		this->sMoney += money;
+	}
+	else if (account == 2)
+	{
+		this->cMoney += money;
+	}
+	else {
+		cout << "Account number " << account << " doesn't exist.";
+		return false;
+	}
+	return true;
+}

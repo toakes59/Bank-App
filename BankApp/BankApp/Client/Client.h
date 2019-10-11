@@ -24,4 +24,6 @@ public:
 	double getCMoney();
 
 	bool withdraw(double money, int account);
+
+	bool deposit(double money, int account);
 };
