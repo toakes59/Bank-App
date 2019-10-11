@@ -1,13 +1,15 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "BaseUser.h"
+#include "BaseUser\BaseUser.h"
+#include "Joemers_Testing\Joemer_Test.h"
 
 using namespace std;
 
 
 int main() {
-
+	//Joemer Test Function
+	j_test();
 	//Testing BaseUser class
 	BaseUser newUser;
 

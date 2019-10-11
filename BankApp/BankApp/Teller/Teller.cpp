@@ -4,11 +4,11 @@
 * Gets the User's id
 * return: id
 */
-BaseUser Teller::getClient(int id) {
+/*BaseUser*/ void Teller::getClient(int id) {
 	
 }
 
-std::vector<BaseUser> Teller::getClientsList() {
+/*std::vector<BaseUser>*/ void Teller::getClientsList() {
 
 }
 

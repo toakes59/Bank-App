@@ -123,6 +123,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BaseUser\BaseUser.cpp" />
+    <ClCompile Include="Client\Client.cpp" />
+    <ClCompile Include="Joemers_Testing\Joemer_Test.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +133,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseUser\BaseUser.h" />
+    <ClInclude Include="Client\Client.h" />
+    <ClInclude Include="Joemers_Testing\Joemer_Test.h" />
     <ClInclude Include="Manager\Manager.h" />
     <ClInclude Include="Teller\Teller.h" />
   </ItemGroup>

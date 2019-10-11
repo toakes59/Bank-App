@@ -42,6 +42,12 @@
     <ClCompile Include="Manager\Manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Client\Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Joemers_Testing\Joemer_Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Teller\Teller.h">
@@ -51,6 +57,12 @@
       <Filter>User</Filter>
     </ClInclude>
     <ClInclude Include="Manager\Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Joemers_Testing\Joemer_Test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

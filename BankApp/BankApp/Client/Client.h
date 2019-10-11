@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "BaseUser.h"
+#include "..\BaseUser\BaseUser.h"
 using namespace std;
 
 class Client : public BaseUser
@@ -10,6 +10,11 @@ private:
 	double cMoney; //Amount of money in checkings account
 
 public:
+	Client()
+	{
+		sMoney = 0;
+		cMoney = 0;
+	}
 
 	void setSMoney();
 	
