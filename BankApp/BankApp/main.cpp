@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "BaseUser.h"
 
 using namespace std;
 

@@ -22,8 +22,13 @@
     <Filter Include="Bank Account">
       <UniqueIdentifier>{27fe1105-3ba8-447b-81fa-d29889036c8f}</UniqueIdentifier>
     </Filter>
+
+    <Filter Include="Client">
+      <UniqueIdentifier>{b20975c7-6445-423a-aa74-382529ec8056}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Teller">
       <UniqueIdentifier>{cc285adb-fb3d-468c-bf41-e3226f456e9d}</UniqueIdentifier>
+
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -37,7 +42,13 @@
       <Filter>User</Filter>
     </ClCompile>
     <ClCompile Include="Manager\Manager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Teller.cpp">
+      <Filter>Teller</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -48,7 +59,13 @@
       <Filter>User</Filter>
     </ClInclude>
     <ClInclude Include="Manager\Manager.h">
-      <Filter>Header Files</Filter>
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Teller.h">
+      <Filter>Teller</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
